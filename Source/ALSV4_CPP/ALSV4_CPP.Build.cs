@@ -14,5 +14,7 @@ public class ALSV4_CPP : ModuleRules
 			});
 
 		PrivateDependencyModuleNames.AddRange(new[] {"Slate", "SlateCore"});
+
+		CppStandard = CppStandardVersion.Cpp20;
 	}
 }
